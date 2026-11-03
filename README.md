@@ -1,6 +1,6 @@
 # Plataforma de Estudos ENEM
 
-App pessoal de estudos para o ENEM, feito por um grupo de amigos para uso próprio. Não é um produto comercial.
+App pessoal de estudos para o ENEM.
 
 ## Sobre
 
@@ -8,7 +8,7 @@ Estudar para o ENEM sozinho tem três problemas: a gente erra questões e não e
 
 ## Funcionalidades
 
-### Diagnóstico de erros em matemática
+### Diagnóstico de erros
 Questões de provas reais do ENEM (com gabarito oficial). O app identifica o tópico de cada questão e mostra em quais tópicos você está fraco — o foco é a explicação do erro, não a nota.
 
 ### Explicações em hipertexto
@@ -19,12 +19,6 @@ Com base nos erros, o app sugere o que estudar e em que ordem. A rotina se ajust
 
 ### Correção de redação pelas 5 competências
 Você escreve e envia a redação no app. Uma IA corrige pelos critérios oficiais do ENEM: nota de 0 a 1000, nota por competência (C1 a C5) e comentário do que melhorar. Sem corretor humano.
-
-## O que o app não é
-
-- Não é público — é para cinco pessoas.
-- Não gera questões do zero — usa provas oficiais.
-- Não tem ranking nem gamificação.
 
 ## Estado atual
 
@@ -37,10 +31,10 @@ Em construção agora:
 
 ## Stack
 
-- **Flutter** — app (Material 3, tema claro/escuro)
+- **Flutter**
 - **Firebase** (plano Spark gratuito) — autenticação por email/Google e banco de dados
 - **API pública do ENEM** — fonte inicial das questões
-- **API de LLM** — correção de redação (único custo real do projeto)
+- **API de LLM** — correção de redação
 
 ## Como rodar
 
